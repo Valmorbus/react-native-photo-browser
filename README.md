@@ -10,7 +10,7 @@ The component has both iOS and Android support.
 ![](screenshots/screenshot-2.png)
 
 ### Installation 
-```npm install react-native-photo-browser --save```
+1. npm install react-native-photo-browser --save
 
 ### Properties
 
@@ -28,7 +28,6 @@ The component has both iOS and Android support.
 |**`onSelectionChanged`**|Function|Called when a media item is selected or unselected.|`(media, index, isSelected) => {}`|
 |**`onActionButton`**|Function|Called when action button is pressed for a photo. Your application should handle sharing process, please see [Sharing](#sharing) section for more information. If you don't provide this method, action button tap event will simply be ignored.|`(media, index) => {}`|
 |**`onBack`**|Function|Called when back button is tapped.|`() => {}`|
-|**`itemPerRow`**|Number|Sets images amount in grid row.|`3`|
 
 ### Media Object
 
@@ -63,7 +62,7 @@ See [PhotoBrowserExample.js](Example/PhotoBrowserExample.js) file.
 Follow those steps to run the example:
 
 1. Clone the repo `git clone https://github.com/halilb/react-native-photo-browser && cd react-native-photo-browser/Example`
-2. Install dependencies `npm install`
+2. Install dependencies `npm install``
 3. Follow [official instructions](https://facebook.github.io/react-native/docs/getting-started.html) to run the example project in a simulator or device.
 
 ### Roadmap
